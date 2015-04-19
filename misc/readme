@@ -1,0 +1,13 @@
+#! python
+
+# This works under MSWin
+if __name__ == "__main__":
+    readme = """\
+    set tabstop=4
+    set softtabstop=4 "Make vim treat key as 4 spaces, but repect hard tabs."
+    set expandtab   "Turn tab keypresses into spaces. Sounds like this is happening to you"
+    set noexpandtab
+    set shiftwidth=4  "When auto-indenting, indent by this much"
+    """
+    print(readme)
+
